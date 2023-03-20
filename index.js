@@ -2,9 +2,9 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const cors = require("cors");
-const userRouter = require("./routers/userrouter");
+const userRouter = require("./routers/userRouter");
 const cropRouter = require("./routers/cropRouter");
-const farmerRouter = require("./routers/farmerrouter");
+const farmerRouter = require("./routers/farmerRouter");
 const companyRouter = require("./routers/companyRouter");
 const PORT = 9000;
 const db =
